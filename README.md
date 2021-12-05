@@ -44,7 +44,7 @@ A sitemap is a file where websites provide information about the pages,  on thei
 
 The sitemap can be found at the path `/sitemap.xml` or `/robots.txt` (rules defined for crawlers on how to crawl their site). It is always worth trying that URL. 
 
-for Edeka , the sitemap URL is https://www.edeka24.de/sitemaps/sitemap-index.xml which is found from `/robots.txt` file 
+for Edeka , the sitemap URL is https://www.edeka24.de/sitemaps/sitemap-index.xml which is found from `/robots.txt` file - https://www.edeka24.de/robots.txt
 
 In this page you can clearly find the sitemap for products is https://www.edeka24.de/sitemaps/sitemap_0-products-0.xml which list all the product pages  **<em>jackpot for us right?</em>**
 
