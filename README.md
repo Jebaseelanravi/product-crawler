@@ -26,7 +26,7 @@ An e-commerce crawler is mainly built to crawl the price of the product. Conside
 
 # How the Crawler Works?
 
-This crawler uses `sitemap` to crawl the product from website. The sitemap.xml file is a jackpot for every web scraper and of course for edeka scraper too.
+This crawler uses `sitemap` to crawl the product from website. `The sitemap.xml file is a jackpot for every web scraper and of course for edeka scraper too`.
 
 Following are the steps involvd in crawler development
 
@@ -36,25 +36,25 @@ Following are the steps involvd in crawler development
 - Extract the datapoint(title,price,html)
 - Save the datapoints in Key value store `product-store`
 
-**what is sitemap?**
+### **what is sitemap?**
 
 A sitemap is a file where websites provide information about the pages,  on their site in an orgainsed way. Search engines like Google read this file to crawl your site more efficiently
 
-**how to locate the sitemap?**
+### **how to locate the sitemap?**
 
 The sitemap can be found at the path `/sitemap.xml` or `/robots.txt` (rules defined for crawlers on how to crawl their site). It is always worth trying that URL. 
 
 for Edeka , the sitemap URL is https://www.edeka24.de/sitemaps/sitemap-index.xml which is found from `/robots.txt` file 
 
-In this page you can clearly find the sitemap for product page is https://www.edeka24.de/sitemaps/sitemap_0-products-0.xml which list all the product pages  **jackpot for us right?**
+In this page you can clearly find the sitemap for products is https://www.edeka24.de/sitemaps/sitemap_0-products-0.xml which list all the product pages  **<em>jackpot for us right?</em>**
 
-**why use sitemap for crawling?**
+### **why use sitemap for crawling?**
 
 - Focused Crawling (Crawl what you need)- (Product pages)
 - Less web request to get the Href from each page and filter product pages
 - Efficient way of Crawling
 
-# Steps to setup the project
+# How to setup the project in Local?
 
 Pre-requisites
 - Node 10.17 or higher
